@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Gabarito', serif;
+    
+  }
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;    
+    border-bottom: solid black 1px;
+    gap: 80px;
+    align-items: center;
+    
+    
+    
+}
+.navbar__s1__title{
+    color: #a435f0;
+}
+.navbar__s2{
+   display: flex;
+   margin-left: 0px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width:60%;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar__s2__input{
+    border: none;
+    width: 100%;
+    font: size 16px;
+    
+}
+.navbar__s2__input:focus{
+    outline:none;
+}
+.navbar__s3{
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.categories{
+    display: flex;
+    border-bottom: solid black 1px;
+    padding: 10px;
+    justify-content: space-around;
+}
+.categories p{
+    background-color: #a435f0;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sale-img img{
+    width: 100%;
+}
+.Recommended{
+    padding: 10px;
+}
+.Recommended_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    height: 50%; 
+    width: 100%;
+    
+}
+.course-card del{
+    margin-left: 5px;
+}
+.topic{
+    padding: 10px;
+}
+.topic__container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+
+}
+.topic__container p{
+    padding: 10px;
+    border: solid grey 2px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.Popular{
+    padding: 10px
+}
+.popular__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer-one{
+    display: flex;
+    gap: 10px;
+
+}
+.footer-two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-one p{
+    margin: 20px;
+}
