@@ -14,5 +14,5 @@ This is a basic clone of the Udemy website, created using HTML and CSS. The proj
 ##Purpose:
 -This project was created for practice and to improve my skills in web development using only HTML and CSS.
 
-## Live Demo:
+## Live Demo:https://jegan8172.github.io/udemy-clone1/
 
